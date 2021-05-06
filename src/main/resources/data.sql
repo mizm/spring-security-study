@@ -1,0 +1,3 @@
+insert into account (id,age,email,password,role,username) values(null,12,'test@test.com','{bcrypt}$2a$10$bu7Sco0jjPfU/h/0dGqLLOj6l6v06d7xvByuCCY2pKTMFujzHSl2C','ROLE_USER','test');
+insert into account (id,age,email,password,role,username) values(null,12,'manager@test.com','{bcrypt}$2a$10$bu7Sco0jjPfU/h/0dGqLLOj6l6v06d7xvByuCCY2pKTMFujzHSl2C','ROLE_MANAGER','manager');
+insert into account (id,age,email,password,role,username) values(null,12,'admin@test.com','{bcrypt}$2a$10$bu7Sco0jjPfU/h/0dGqLLOj6l6v06d7xvByuCCY2pKTMFujzHSl2C','ROLE_ADMIN','admin');
