@@ -24,6 +24,7 @@ public class AjaxAuthenticationFailureHandler implements AuthenticationFailureHa
 	@Override
 	public void onAuthenticationFailure(HttpServletRequest request, HttpServletResponse response, AuthenticationException exception) throws IOException, ServletException {
 
+		//ajax 에러 핸들러
 		String errorMessage = "Invalid Username or Password";
 
 		response.setStatus(HttpStatus.UNAUTHORIZED.value());
